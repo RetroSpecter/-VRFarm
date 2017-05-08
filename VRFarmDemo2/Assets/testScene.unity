@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -108,7 +108,35 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &35249827
+--- !u!1 &965917458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 965917459}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &965917459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 965917458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.894754, y: 4.3806543, z: -34.750847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1050662155
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -147,17 +175,47 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114090473526208790, guid: b288e926420f6e1449cf64361abe00dc,
+    - target: {fileID: 114951261813451612, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
-    - target: {fileID: 114605659733919430, guid: b288e926420f6e1449cf64361abe00dc,
+    - target: {fileID: 114919423274250510, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
-    - target: {fileID: 114709637117595106, guid: b288e926420f6e1449cf64361abe00dc,
+    - target: {fileID: 114915523343969018, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114893401242005340, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114886056247691100, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114883380551231426, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114851143958794312, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114844540526772442, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114822693976768612, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
@@ -167,7 +225,12 @@ Prefab:
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
-    - target: {fileID: 114417774974594560, guid: b288e926420f6e1449cf64361abe00dc,
+    - target: {fileID: 114763098816807818, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114762244781216286, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
@@ -182,217 +245,7 @@ Prefab:
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
-    - target: {fileID: 114264066135131100, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114555663986013014, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114951261813451612, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114514997027420920, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114266113794062532, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114844540526772442, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114232900570226046, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114010181555218818, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114087460476992842, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114822693976768612, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114135387832427898, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114103624855838470, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114530697682759792, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114287371188140090, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114178558820294526, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114439463659438152, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114886056247691100, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114386960055144222, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114129634537095008, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114315546319501012, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114112308809530498, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114710426115861048, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114556676509342278, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114763098816807818, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114505413661071398, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114328459161961992, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114883380551231426, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114577337870932492, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114432861274671796, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114011310223023924, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114919423274250510, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114090535900567274, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114610597077360918, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114171869763655316, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114467203979100386, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114893401242005340, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114582429166642120, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114465956640953554, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114197770848172588, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114915523343969018, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114851143958794312, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114762244781216286, guid: b288e926420f6e1449cf64361abe00dc,
-        type: 2}
-      propertyPath: MyCameraTransform
-      value: 
-      objectReference: {fileID: 1660121174}
-    - target: {fileID: 114476376931766750, guid: b288e926420f6e1449cf64361abe00dc,
+    - target: {fileID: 114729769259890724, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
@@ -402,47 +255,214 @@ Prefab:
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
+    - target: {fileID: 114710426115861048, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114709637117595106, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114610597077360918, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114605659733919430, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114582429166642120, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114577337870932492, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114555663986013014, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114530697682759792, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114514997027420920, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114505413661071398, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114476376931766750, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114467203979100386, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114465956640953554, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114439463659438152, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114432861274671796, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114417774974594560, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114386960055144222, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114328459161961992, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114315546319501012, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114287371188140090, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114266113794062532, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114264066135131100, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114232900570226046, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114197770848172588, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114171869763655316, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114135387832427898, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114129634537095008, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114112308809530498, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114103624855838470, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114090535900567274, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114090473526208790, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 114087460476992842, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
     - target: {fileID: 114052757814488064, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
-    - target: {fileID: 114729769259890724, guid: b288e926420f6e1449cf64361abe00dc,
+    - target: {fileID: 114011310223023924, guid: b288e926420f6e1449cf64361abe00dc,
         type: 2}
       propertyPath: MyCameraTransform
       value: 
       objectReference: {fileID: 1660121174}
+    - target: {fileID: 114010181555218818, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: MyCameraTransform
+      value: 
+      objectReference: {fileID: 1660121174}
+    - target: {fileID: 4201324453841350, guid: b288e926420f6e1449cf64361abe00dc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.0859
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201324453841350, guid: b288e926420f6e1449cf64361abe00dc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.0639
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939880995190392, guid: b288e926420f6e1449cf64361abe00dc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 212477612464664044, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 2.0631301
+      objectReference: {fileID: 0}
+    - target: {fileID: 212477612464664044, guid: b288e926420f6e1449cf64361abe00dc,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 27.503294
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939880995190392, guid: b288e926420f6e1449cf64361abe00dc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.0163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939880995190392, guid: b288e926420f6e1449cf64361abe00dc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.0846
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b288e926420f6e1449cf64361abe00dc, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &965917458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 965917459}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &965917459
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 965917458}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.894754, y: 4.3806543, z: -34.750847}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106043181
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +487,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1106043181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1, y: -1.9599999, z: -5.66}
+  m_LocalPosition: {x: -0.1, y: -2.05, z: -5.66}
   m_LocalScale: {x: 300.65552, y: -0.36597958, z: 300.65555}
   m_Children: []
   m_Father: {fileID: 0}
