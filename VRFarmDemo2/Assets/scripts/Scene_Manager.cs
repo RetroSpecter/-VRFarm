@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class Scene_Manager : MonoBehaviour {
 
-    public AudioClip test;
+    public AudioClip[] test;
     public GameObject currentScene;
     public GameObject[] scenes;
 
     void Start() {
-        playNarration(test);
+        //playNarration(test[0]);
         StartCoroutine(screenFade.instance.fade(Color.black, Color.clear, true, 0.5f));
         //StartCoroutine(fadeBetweenScenesCor(0.5f, 1));
+    }
+
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            GetComponent<Animator>().SetTrigger("skip");
+        }
     }
 
     public void fadeBetweenPositions(Vector3 newPosition) {

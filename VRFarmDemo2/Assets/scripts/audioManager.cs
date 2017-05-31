@@ -7,7 +7,7 @@ public class audioManager : MonoBehaviour {
     public AudioClip soundFX;
     public static audioManager instance;
 
-    void Start() {
+    void Awake() {
         instance = this;
         source = GetComponent<AudioSource>();
     }
