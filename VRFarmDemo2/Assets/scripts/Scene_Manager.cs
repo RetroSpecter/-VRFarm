@@ -20,6 +20,10 @@ public class Scene_Manager : MonoBehaviour {
         }
     }
 
+    public void D1_Position() {
+        fadeBetweenPositions(new Vector3(0.008f, 3.19f, 4.18f));
+    }
+
     public void fadeBetweenPositions(Vector3 newPosition) {
         StartCoroutine(screenFade.instance.fadeBetween(1, newPosition));
     }
