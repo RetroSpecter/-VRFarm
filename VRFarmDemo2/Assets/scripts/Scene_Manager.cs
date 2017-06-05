@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.ImageEffects;
 
 public class Scene_Manager : MonoBehaviour {
 
@@ -30,6 +31,11 @@ public class Scene_Manager : MonoBehaviour {
 
     public void fadeBetweenScenes(int sceneIndex) {
         StartCoroutine(fadeBetweenScenesCor(0.5f, sceneIndex));
+    }
+
+    public void toggleDreamEffects() {
+        Camera.main.GetComponent<Bloom>().enabled = !Camera.main.GetComponent<Bloom>().enabled;
+        Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled = !Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled;
     }
 
     public IEnumerator fadeBetweenScenesCor(float time, int sceneIndex) {
