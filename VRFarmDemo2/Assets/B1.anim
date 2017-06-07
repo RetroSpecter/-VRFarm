@@ -2164,20 +2164,6 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 0
-    functionName: fadeBetweenScenes
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 1
-    messageOptions: 0
-  - time: 0
-    functionName: toggleDreamEffects
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.033333335
     functionName: playNarration
     data: 
     objectReferenceParameter: {fileID: 8300000, guid: 54edc15e1f2c3df4288dd5a383ba7f17,
@@ -2185,8 +2171,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.083333336
+  - time: 0
+    functionName: jumpBetweenScenes
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 0.05
     functionName: DebugPositionReset
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.13333334
+    functionName: toggleDreamEffects
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

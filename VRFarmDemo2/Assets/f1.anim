@@ -273,18 +273,18 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0
+  - time: 0.11666667
+    functionName: fadeBetweenScenes
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 6
+    messageOptions: 0
+  - time: 0.73333335
     functionName: setSkybox
     data: 
     objectReferenceParameter: {fileID: 2100000, guid: 31f7cdea9238c654baefc1dd71fad442,
       type: 2}
     floatParameter: 0
     intParameter: 0
-    messageOptions: 0
-  - time: 0.083333336
-    functionName: fadeBetweenScenes
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 6
     messageOptions: 0
