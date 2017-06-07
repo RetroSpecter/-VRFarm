@@ -28,6 +28,6 @@ public class screenFade : MonoBehaviour {
             spriteRend.color = new Color(end.r, end.g, end.b, fadeIn ? 1 - f : f);
             yield return null;
         }
-        spriteRend.color = new Color(end.r, end.g, end.b, end.g);
+        spriteRend.color = new Color(end.r, end.g, end.b, end.a);
     }
 }

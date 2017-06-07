@@ -9,6 +9,8 @@ public class Scene_Manager : MonoBehaviour {
     public GameObject currentScene;
     public GameObject[] scenes;
 
+    public Material testSkybox;
+
     void Start() {
         //playNarration(test[0]);
         StartCoroutine(screenFade.instance.fade(Color.black, Color.clear, true, 0.5f));
@@ -21,8 +23,24 @@ public class Scene_Manager : MonoBehaviour {
         }
     }
 
+    public void setSkybox(Material skybox) {
+        RenderSettings.skybox = skybox;
+    }
+
     public void D1_Position() {
-        fadeBetweenPositions(new Vector3(0.008f, 3.19f, 4.18f));
+        Camera.main.transform.position  = new Vector3(-2.43f, 1.53f, 1.3f);
+    }
+
+    public void PositionReset() {
+        fadeBetweenPositions(new Vector3(-0.22f, -0.14f, -5.69f));
+    }
+
+    public void DebugPositionReset() {
+        Camera.main.transform.position = new Vector3(-0.22f, -0.14f, -5.69f);
+    }
+
+    public void fadeToBlack() {
+        StartCoroutine(screenFade.instance.fade(Color.clear, Color.black, false, 0.5f));
     }
 
     public void fadeBetweenPositions(Vector3 newPosition) {
@@ -30,12 +48,12 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void fadeBetweenScenes(int sceneIndex) {
-        StartCoroutine(fadeBetweenScenesCor(0.5f, sceneIndex));
+        StartCoroutine(fadeBetweenScenesCor(1, sceneIndex));
     }
 
     public void toggleDreamEffects() {
         Camera.main.GetComponent<Bloom>().enabled = !Camera.main.GetComponent<Bloom>().enabled;
-        Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled = !Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled;
+        //Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled = !Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled;
     }
 
     public IEnumerator fadeBetweenScenesCor(float time, int sceneIndex) {

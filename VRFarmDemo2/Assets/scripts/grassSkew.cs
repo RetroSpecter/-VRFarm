@@ -16,6 +16,7 @@ public class grassSkew : BillBoardGo {
 
     float randomStart;
     void LateUpdate() {
+        MyCameraTransform = Camera.main.transform;
         float rotate =  Mathf.Sin(randomStart + Time.time * 4) * 6 - 3;
 
         Quaternion lookAtCamera = Quaternion.LookRotation(MyCameraTransform.position);
