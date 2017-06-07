@@ -51,6 +51,12 @@ public class Scene_Manager : MonoBehaviour {
         StartCoroutine(fadeBetweenScenesCor(1, sceneIndex));
     }
 
+    public void jumpBetweenScenes(int sceneIndex) {
+        currentScene.SetActive(false);
+        currentScene = scenes[sceneIndex];
+        currentScene.SetActive(true);
+    }
+
     public void toggleDreamEffects() {
         Camera.main.GetComponent<Bloom>().enabled = !Camera.main.GetComponent<Bloom>().enabled;
         //Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled = !Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled;
@@ -62,7 +68,6 @@ public class Scene_Manager : MonoBehaviour {
         currentScene = scenes[sceneIndex];
         currentScene.SetActive(true);
         yield return screenFade.instance.fade(Color.black, Color.clear, true, time * 2);
-
     }
 
     public void playNarration(AudioClip narration) {
