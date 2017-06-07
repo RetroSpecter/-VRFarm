@@ -8,6 +8,7 @@ public class Scene_Manager : MonoBehaviour {
     public AudioClip[] test;
     public GameObject currentScene;
     public GameObject[] scenes;
+	public Camera sceneCamera;
 
     public Material testSkybox;
 
@@ -28,7 +29,7 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void D1_Position() {
-        Camera.main.transform.position  = new Vector3(-2.43f, 1.53f, 1.3f);
+        sceneCamera.transform.position  = new Vector3(-2.43f, 1.53f, 1.3f);
     }
 
     public void PositionReset() {
@@ -36,7 +37,7 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void DebugPositionReset() {
-        Camera.main.transform.position = new Vector3(-0.22f, -0.14f, -5.69f);
+		sceneCamera.transform.position = new Vector3(-0.22f, -0.14f, -5.69f);
     }
 
     public void fadeToBlack() {
@@ -58,7 +59,7 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void toggleDreamEffects() {
-        Camera.main.GetComponent<Bloom>().enabled = !Camera.main.GetComponent<Bloom>().enabled;
+		sceneCamera.GetComponent<Bloom>().enabled = !sceneCamera.GetComponent<Bloom>().enabled;
         //Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled = !Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled;
     }
 
