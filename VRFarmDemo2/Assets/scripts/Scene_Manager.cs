@@ -14,7 +14,7 @@ public class Scene_Manager : MonoBehaviour {
 
     void Start() {
         //playNarration(test[0]);
-        StartCoroutine(screenFade.instance.fade(Color.black, Color.clear, true, 0.5f));
+        //StartCoroutine(screenFade.instance.fade(true, 0.5f));
         //StartCoroutine(fadeBetweenScenesCor(0.5f, 1));
     }
 
@@ -23,10 +23,7 @@ public class Scene_Manager : MonoBehaviour {
             GetComponent<Animator>().SetTrigger("skip");
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            RenderSettings.skybox = testSkybox;
-        }
+        //if (Input.GetKeyDown(KeyCode.P)) { RenderSettings.skybox = testSkybox; }
     }
 
     public void setSkybox(Material skybox) {
@@ -38,15 +35,15 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void PositionReset() {
-        fadeBetweenPositions(new Vector3(-0.22f, -0.14f, -5.69f));
+        fadeBetweenPositions(new Vector3(-0.22f, 0.14f, -5.69f));
     }
 
     public void DebugPositionReset() {
-		sceneCamera.transform.position = new Vector3(-0.22f, -0.14f, -5.69f);
+		sceneCamera.transform.position = new Vector3(-0.22f, 0.14f, -5.69f);
     }
 
     public void fadeToBlack() {
-        StartCoroutine(screenFade.instance.fade(Color.clear, Color.black, false, 0.5f));
+        StartCoroutine(screenFade.instance.fade(false, 0.5f));
     }
 
     public void fadeBetweenPositions(Vector3 newPosition) {
@@ -69,11 +66,11 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public IEnumerator fadeBetweenScenesCor(float time, int sceneIndex) {
-        yield return screenFade.instance.fade(Color.clear, Color.black, false, time * 2);
+        yield return screenFade.instance.fade(false, time * 2);
         currentScene.SetActive(false);
         currentScene = scenes[sceneIndex];
         currentScene.SetActive(true);
-        yield return screenFade.instance.fade(Color.black, Color.clear, true, time * 2);
+        yield return screenFade.instance.fade(true, time * 2);
     }
 
     public void playNarration(AudioClip narration) {

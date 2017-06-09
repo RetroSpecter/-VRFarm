@@ -1,8 +1,9 @@
-﻿Shader "Hidden/fadeShader"
+﻿Shader "Hidden/fade"
 {
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
+		_opacity("opacity", Range(0, 1.1)) = 5
 	}
 	SubShader
 	{
@@ -38,12 +39,12 @@
 			}
 			
 			sampler2D _MainTex;
+			float _opacity;
 
-			fixed4 frag (v2f i) : SV_Target
+			float4 frag (v2f i) : SV_Target
 			{
-				fixed4 col = tex2D(_MainTex, i.uv);
-				// just invert the colors
-				col = 1 - col;
+				float4 col = tex2D(_MainTex, i.uv);
+				col *= float4(_opacity,_opacity, _opacity, 0);
 				return col;
 			}
 			ENDCG

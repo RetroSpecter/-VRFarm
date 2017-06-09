@@ -1009,7 +1009,7 @@ AnimationClip:
   - time: 0
     functionName: setSkybox
     data: 
-    objectReferenceParameter: {fileID: 2100000, guid: 4b7bde69c41b49c48b2b61064f092590,
+    objectReferenceParameter: {fileID: 2100000, guid: 94925f07735937a498cfe58e294143ef,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1022,7 +1022,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 4.65
+  - time: 4.016667
     functionName: fadeToBlack
     data: 
     objectReferenceParameter: {fileID: 0}
