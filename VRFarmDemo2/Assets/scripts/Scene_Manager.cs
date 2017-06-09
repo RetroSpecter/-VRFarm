@@ -22,6 +22,11 @@ public class Scene_Manager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space)) {
             GetComponent<Animator>().SetTrigger("skip");
         }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            RenderSettings.skybox = testSkybox;
+        }
     }
 
     public void setSkybox(Material skybox) {
