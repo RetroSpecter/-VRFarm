@@ -5,8 +5,15 @@ using UnityEngine;
 public class CloudRotation : MonoBehaviour {
 
     public float speed;
+    public bool vertical = false;
 
     void LateUpdate() {
-        transform.Rotate(0,speed,0);
+        if (vertical)
+        {
+            transform.Rotate(0, speed, 0);
+        }
+        else {
+            transform.Rotate(speed, 0, 0);
+        }
     }
 }
