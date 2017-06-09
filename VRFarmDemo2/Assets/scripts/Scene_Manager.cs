@@ -8,13 +8,13 @@ public class Scene_Manager : MonoBehaviour {
     public AudioClip[] test;
     public GameObject currentScene;
     public GameObject[] scenes;
-	public Camera sceneCamera;
+	public GameObject sceneCamera;
 
     public Material testSkybox;
 
     void Start() {
         //playNarration(test[0]);
-        //StartCoroutine(screenFade.instance.fade(true, 0.5f));
+        StartCoroutine(screenFade.instance.fade(true, 0.5f));
         //StartCoroutine(fadeBetweenScenesCor(0.5f, 1));
     }
 
@@ -61,7 +61,7 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void toggleDreamEffects() {
-		sceneCamera.GetComponent<Bloom>().enabled = !sceneCamera.GetComponent<Bloom>().enabled;
+		//sceneCamera.GetComponentInChildren<Bloom>().enabled = !sceneCamera.GetComponent<Bloom>().enabled;
         //Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled = !Camera.main.GetComponent<VignetteAndChromaticAberration>().enabled;
     }
 
