@@ -26386,11 +26386,11 @@ MonoBehaviour:
   ImageFormatType: 0
   Folder: VR_Sequence
   captureKey: 32
-  FPS: 193
+  FPS: 30
   resolution: 3840
   resolutionH: 2160
   step: 0
-  NumberOfFramesToRender: 4000
+  NumberOfFramesToRender: 4200
   renderFromFrame: 1
   sequenceLength: 
   IPDistance: 0.066
@@ -26398,12 +26398,12 @@ MonoBehaviour:
   restoreFOV: 0
   openDestinationFolder: 0
   ambisonicsSupportTest: 0
-  fullPath: C:\Users\josep_000\Desktop\VRFarm\TopStitchUnityDEMO\-VRFarm\VRFarmDemo2\VR_Sequence\
+  fullPath: /Users/ReedErlandson/-VRFarm/VRFarmDemo2/VR_Sequence/
   customPath: 0
   customPathFolder: C:/
-  encodeToMp4: 1
+  encodeToMp4: 0
   Mp4Bitrate: 35000
-  jpgQuality: 55
+  jpgQuality: 90
   renderQuality: 13
   formatString: .jpg"
   mailme: 0
