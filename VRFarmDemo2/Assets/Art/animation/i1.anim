@@ -70,6 +70,38 @@ AnimationClip:
     path: CloudRevolver
     classID: 1
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: FadeOutSphere/VR Panorama Camera
+    classID: 114
+    script: {fileID: 11500000, guid: deb00c4a2c7dfe5488b4c1eb583cc552, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: FadeOutSphere/Main Camera
+    classID: 114
+    script: {fileID: 11500000, guid: deb00c4a2c7dfe5488b4c1eb583cc552, type: 3}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -578,6 +610,20 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 3303083503
+      attribute: 3305885265
+      script: {fileID: 11500000, guid: deb00c4a2c7dfe5488b4c1eb583cc552, type: 3}
+      typeID: 114
+      customType: 24
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2755645138
+      attribute: 3305885265
+      script: {fileID: 11500000, guid: deb00c4a2c7dfe5488b4c1eb583cc552, type: 3}
+      typeID: 114
+      customType: 24
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 1548530780
       attribute: 0
       script: {fileID: 0}
@@ -1001,6 +1047,38 @@ AnimationClip:
     path: Scene_I1/ fading light
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: FadeOutSphere/VR Panorama Camera
+    classID: 114
+    script: {fileID: 11500000, guid: deb00c4a2c7dfe5488b4c1eb583cc552, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: FadeOutSphere/Main Camera
+    classID: 114
+    script: {fileID: 11500000, guid: deb00c4a2c7dfe5488b4c1eb583cc552, type: 3}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
