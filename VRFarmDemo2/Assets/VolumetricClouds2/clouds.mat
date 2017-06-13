@@ -65,4 +65,4 @@ Material:
     - _LightAttenuation: {r: 0.9264706, g: 0.86163646, b: 0.72210205, a: 0.128}
     - _Shading: {r: 0.9117647, g: 0.85988843, b: 0.6905277, a: 0.703}
     - _ShadowColor: {r: 1, g: 1, b: 1, a: 0.5}
-    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WindDirection: {r: 1.5, g: 0, b: 0, a: 0}
