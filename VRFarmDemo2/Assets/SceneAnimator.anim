@@ -373,7 +373,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 19.45
+  - time: 19.916666
     functionName: fadeBetweenScenes
     data: 
     objectReferenceParameter: {fileID: 0}

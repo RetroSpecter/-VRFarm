@@ -66,11 +66,12 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public IEnumerator fadeBetweenScenesCor(float time, int sceneIndex) {
-        yield return screenFade.instance.fade(false, time * 2);
+        //yield return screenFade.instance.fade(false, time * 2);
         currentScene.SetActive(false);
         currentScene = scenes[sceneIndex];
         currentScene.SetActive(true);
-        yield return screenFade.instance.fade(true, time * 2);
+        yield return null;
+        //yield return screenFade.instance.fade(true, time * 2);
     }
 
     public void playNarration(AudioClip narration) {

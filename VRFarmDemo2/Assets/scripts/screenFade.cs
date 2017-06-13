@@ -25,9 +25,10 @@ public class screenFade : MonoBehaviour {
     }
 
     public IEnumerator fadeBetween(float speed, Vector3 position) {
-        yield return fade(false, speed * 2);
+        //yield return fade(false, speed * 2);
         transform.position = position;
-        yield return fade(true, speed * 2);
+        yield return null;
+        //yield return fade(true, speed * 2);
     }
 
     public IEnumerator fade(bool fadeIn, float speed) {
