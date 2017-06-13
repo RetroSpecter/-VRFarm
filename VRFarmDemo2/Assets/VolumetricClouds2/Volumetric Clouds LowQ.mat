@@ -34,7 +34,7 @@ Material:
     - _DensityLow: -1
     - _DensityMapOn: 0
     - _DepthColor: 0
-    - _DistanceBlend: 0.6
+    - _DistanceBlend: 8.59
     - _DrawDistance: 1000
     - _HQPointLight: 0
     - _IndirectContribution: 1

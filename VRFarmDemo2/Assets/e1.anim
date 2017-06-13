@@ -45,12 +45,12 @@ AnimationClip:
         time: 0
         value: {x: -91.005, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -4.9084315, y: -0, z: -0}
         tangentMode: 0
       - serializedVersion: 2
         time: 37.083332
         value: {x: -273.026, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
+        inSlope: {x: -4.9084315, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
@@ -68,7 +68,7 @@ AnimationClip:
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
-        time: 43.35
+        time: 44.933334
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -84,24 +84,24 @@ AnimationClip:
         time: 0
         value: {x: 88, y: 615, z: 1548}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -0, y: 82.30855, z: -87.11354}
         tangentMode: 0
       - serializedVersion: 2
         time: 15.016666
         value: {x: 88, y: 1851, z: 239.84497}
-        inSlope: {x: 0, y: 0, z: -103.9881}
-        outSlope: {x: 0, y: 0, z: -103.9881}
+        inSlope: {x: 0, y: 82.30855, z: -87.11354}
+        outSlope: {x: -0, y: -66.511215, z: -117.623955}
         tangentMode: 0
       - serializedVersion: 2
         time: 33.6
         value: {x: 88, y: 615, z: -1946}
-        inSlope: {x: 0, y: -91.914894, z: -72.36978}
-        outSlope: {x: 0, y: -91.914894, z: -72.36978}
+        inSlope: {x: 0, y: -66.511215, z: -72.36978}
+        outSlope: {x: -0, y: -206.12894, z: -72.36978}
         tangentMode: 0
       - serializedVersion: 2
         time: 37.733334
         value: {x: 88, y: -237, z: -2357}
-        inSlope: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: -206.12894, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
@@ -364,7 +364,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 43.35
+    m_StopTime: 44.933334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -390,7 +390,7 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 43.35
+        time: 44.933334
         value: 0
         inSlope: 0
         outSlope: 0
@@ -412,7 +412,7 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 43.35
+        time: 44.933334
         value: 0
         inSlope: 0
         outSlope: 0
@@ -434,7 +434,7 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 43.35
+        time: 44.933334
         value: 0
         inSlope: 0
         outSlope: 0
@@ -569,26 +569,26 @@ AnimationClip:
         time: 0
         value: 88
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -0
+        tangentMode: 69
       - serializedVersion: 2
         time: 15.016666
         value: 88
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -0
+        tangentMode: 69
       - serializedVersion: 2
         time: 33.6
         value: 88
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -0
+        tangentMode: 69
       - serializedVersion: 2
         time: 37.733334
         value: 88
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 69
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -603,26 +603,26 @@ AnimationClip:
         time: 0
         value: 615
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: 82.30855
+        tangentMode: 69
       - serializedVersion: 2
         time: 15.016666
         value: 1851
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: 82.30855
+        outSlope: -66.511215
+        tangentMode: 69
       - serializedVersion: 2
         time: 33.6
         value: 615
-        inSlope: -91.914894
-        outSlope: -91.914894
-        tangentMode: 136
+        inSlope: -66.511215
+        outSlope: -206.12894
+        tangentMode: 69
       - serializedVersion: 2
         time: 37.733334
         value: -237
-        inSlope: 0
+        inSlope: -206.12894
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 69
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -637,14 +637,14 @@ AnimationClip:
         time: 0
         value: 1548
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -87.11354
+        tangentMode: 69
       - serializedVersion: 2
         time: 15.016666
         value: 239.84497
-        inSlope: -103.9881
-        outSlope: -103.9881
-        tangentMode: 136
+        inSlope: -87.11354
+        outSlope: -117.623955
+        tangentMode: 69
       - serializedVersion: 2
         time: 33.6
         value: -1946
@@ -671,14 +671,14 @@ AnimationClip:
         time: 0
         value: -91.005
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -4.9084315
+        tangentMode: 69
       - serializedVersion: 2
         time: 37.083332
         value: -273.026
-        inSlope: 0
+        inSlope: -4.9084315
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 69
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -693,14 +693,14 @@ AnimationClip:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -0
+        tangentMode: 69
       - serializedVersion: 2
         time: 37.083332
         value: 0
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 69
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -715,14 +715,14 @@ AnimationClip:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        outSlope: -0
+        tangentMode: 69
       - serializedVersion: 2
         time: 37.083332
         value: 0
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 69
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -928,7 +928,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: StarsFade (1)
+    path: Sun
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -938,17 +938,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: StarsFade (1)
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: StarsFade (1)
+    path: Sun
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -967,8 +957,18 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: StarsFade (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sun
+    path: StarsFade (1)
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -978,7 +978,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sun
+    path: StarsFade (1)
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
@@ -986,6 +986,13 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 0
+    functionName: fadeBetweenScenes
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 5
+    messageOptions: 0
+  - time: 0.36666667
     functionName: playNarration
     data: 
     objectReferenceParameter: {fileID: 8300000, guid: 17698cb023940d7469e8699b0339b82f,
@@ -993,14 +1000,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0
-    functionName: fadeBetweenScenes
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 6
-    messageOptions: 0
-  - time: 0
+  - time: 1.0666667
     functionName: setSkybox
     data: 
     objectReferenceParameter: {fileID: 2100000, guid: 31f7cdea9238c654baefc1dd71fad442,
