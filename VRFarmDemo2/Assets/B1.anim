@@ -4305,18 +4305,18 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 0
-    functionName: playNarration
-    data: 
-    objectReferenceParameter: {fileID: 8300000, guid: 54edc15e1f2c3df4288dd5a383ba7f17,
-      type: 3}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
+  - time: 0.06666667
     functionName: DebugPositionReset
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12.95
+    functionName: playNarration
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 387e326cb3de59d4d93055016ec98df8,
+      type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

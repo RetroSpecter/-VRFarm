@@ -992,15 +992,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 5
     messageOptions: 0
-  - time: 0.36666667
-    functionName: playNarration
-    data: 
-    objectReferenceParameter: {fileID: 8300000, guid: 17698cb023940d7469e8699b0339b82f,
-      type: 3}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 1.0666667
+  - time: 0
     functionName: setSkybox
     data: 
     objectReferenceParameter: {fileID: 2100000, guid: 31f7cdea9238c654baefc1dd71fad442,
@@ -1012,6 +1004,14 @@ AnimationClip:
     functionName: playNarration
     data: 
     objectReferenceParameter: {fileID: 8300000, guid: ddec7e72914d2fa418c5eb3aa5355029,
+      type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 43.35
+    functionName: playNarration
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 4605813a25bd2204e965ed2376f50d94,
       type: 3}
     floatParameter: 0
     intParameter: 0

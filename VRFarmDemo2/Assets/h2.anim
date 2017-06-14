@@ -248,15 +248,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 9
     messageOptions: 0
-  - time: 0
+  - time: 9.966666
     functionName: playNarration
     data: 
-    objectReferenceParameter: {fileID: 8300000, guid: fd68a7e3fbff5124abb33ba0f02fa8e8,
+    objectReferenceParameter: {fileID: 8300000, guid: 9e4b371dcf61f01488dbda0f58286719,
       type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 9.733334
+  - time: 10.733334
     functionName: fadeBetweenScenes
     data: 
     objectReferenceParameter: {fileID: 0}

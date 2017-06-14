@@ -1092,13 +1092,12 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.1
-    functionName: playNarration
+  - time: 0
+    functionName: jumpBetweenScenes
     data: 
-    objectReferenceParameter: {fileID: 8300000, guid: 9e4b371dcf61f01488dbda0f58286719,
-      type: 3}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 0
+    intParameter: 10
     messageOptions: 0
   - time: 4.016667
     functionName: fadeToBlack

@@ -2889,19 +2889,19 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 0
-    functionName: playNarration
-    data: 
-    objectReferenceParameter: {fileID: 8300000, guid: 4605813a25bd2204e965ed2376f50d94,
-      type: 3}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
     functionName: fadeBetweenScenes
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 7
+    messageOptions: 0
+  - time: 15.933333
+    functionName: playNarration
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 8c680a6bd88664b468a9925261b210d9,
+      type: 3}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 16.633333
     functionName: fadeBetweenScenes
