@@ -4305,10 +4305,18 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 0.06666667
+  - time: 0
     functionName: DebugPositionReset
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: setSkybox
+    data: 
+    objectReferenceParameter: {fileID: 2100000, guid: 919236ca59e8eeb47b1691f570162e41,
+      type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

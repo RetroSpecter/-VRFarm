@@ -334,3 +334,11 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: setSkybox
+    data: 
+    objectReferenceParameter: {fileID: 2100000, guid: 04a7b11528871d448a46d6693fb20b76,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
